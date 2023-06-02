@@ -23,6 +23,7 @@ The easiest way to install LocalStack is via pip:
 [Install and setup AWS CLI for LocalStack from here](https://docs.localstack.cloud/user-guide/integrations/aws-cli/)\
 
 ```
+pip install awscli
 YourMacUser ~ % export AWS_ACCESS_KEY_ID="test"
 YourMacUser ~ % export AWS_SECRET_ACCESS_KEY="test"
 YourMacUser ~ % export AWS_DEFAULT_REGION="us-east-1"
@@ -35,5 +36,5 @@ AWS Access Key ID [None]: test
 AWS Secret Access Key [None]: test
 Default region name [None]: 
 Default output format [None]: 
-```\
-```aws --endpoint-url=http://localhost:4566 s3api create-bucket --bucket my-bucket --region us-east-1```
+
+```
