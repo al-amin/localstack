@@ -11,5 +11,12 @@ The easiest way to install LocalStack is via pip:
 ```pip install localstack```
 ```localstack start```
 
-## Running localstack on Docker (Option 2)
+## Running localstack on Docker (Option 2) - I will be using this
 ```docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack```
+
+# Using AWS CLI
+## AWSLocal wrapper (Option #1)
+```pip install awslocal-cli```
+```awslocal s3api list-buckets --region us-east-1```
+## AWS CLI pointing to endpoint (Option #2)
+```aws --endpoint-url=http://localhost:4566 s3api create-bucket --bucket my-bucket --region us-east-1```
