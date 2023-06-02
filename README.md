@@ -20,5 +20,5 @@ The easiest way to install LocalStack is via pip:
 ```awslocal s3api list-buckets --region us-east-1```
 
 ## AWS CLI pointing to endpoint (Option #2)
-[Download and install AWS CLI for Mac] (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+```pip install awscli```
 ```aws --endpoint-url=http://localhost:4566 s3api create-bucket --bucket my-bucket --region us-east-1```
