@@ -40,7 +40,7 @@ Default output format [None]:
 ```
 
 ### Create your first bucket
-```aws --endpoint-url=http://localhost:4566 s3api create-bucket --bucket my-bucket --region us-east-1```
+```awslocal --endpoint-url=http://localhost:4566 s3api create-bucket --bucket my-bucket --region us-east-1```
 
 ### list the buckets:
-```aws --endpoint-url=http://localhost:4566 s3api list-buckets```
+```awslocal --endpoint-url=http://localhost:4566 s3api list-buckets```
