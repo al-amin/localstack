@@ -28,7 +28,11 @@ The easiest way to install LocalStack is via brew on MacOS:
 ```pip install awslocal-cli```\
 ```awslocal s3api list-buckets --region us-east-1```
 
-## AWS CLI pointing to endpoint (Option #2)
+## AWSLocal wrapper using pip3 on mac(Option #2)
+```pip3 install 'awscli-local[ver1]'```\
+```awslocal s3api list-buckets --region us-east-1```
+
+## AWS CLI pointing to endpoint (Option #3)
 [Install and setup AWS CLI for LocalStack from here](https://docs.localstack.cloud/user-guide/integrations/aws-cli/)\
 
 ```
