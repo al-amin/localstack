@@ -15,6 +15,14 @@ The easiest way to install LocalStack is via pip:
 ## Running localstack on Docker (Option 2) - I will be using this
 ```docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack```
 
+## Installation/Starting Localstack using brew (Option 3)
+The easiest way to install LocalStack is via brew on MacOS:
+
+```brew install localstack/tap/localstack-cli```\
+```localstack --version```\
+```localstack start```
+
+
 # Using AWS CLI
 ## AWSLocal wrapper (Option #1)
 ```pip install awslocal-cli```\
