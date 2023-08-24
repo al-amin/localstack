@@ -58,5 +58,12 @@ Default output format [None]:
 ### list the buckets:
 ```awslocal --endpoint-url=http://localhost:4566 s3api list-buckets```
 
-### How to install AWS CLI (Official):
+
+# Only applicable for AWS Cloud (official)
+## How to install AWS CLI (Official):
 [Install official AWS CLI ](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+## How to add Access Key into mac's Terminal:
+First of all create a Access key from your AWS account
+Then
+```aws configure```
