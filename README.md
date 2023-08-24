@@ -57,3 +57,6 @@ Default output format [None]:
 
 ### list the buckets:
 ```awslocal --endpoint-url=http://localhost:4566 s3api list-buckets```
+
+
+[Install official AWS CLI ](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
